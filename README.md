@@ -25,36 +25,36 @@ Gain confidence through hands-on practice.
 
 # Getting Started
 
-1.Clone the repository to your local machine.
+1. Clone the repository to your local machine.
 
-    git clone https://github.com/your-username/practice-projects.git
+       git clone https://github.com/your-username/practice-projects.git
     
-2.Navigate to the project folder and open the files in your favorite code editor.
+2. Navigate to the project folder and open the files in your favorite code editor.
 
-3.Open the HTML files in your web browser to see the projects in action.
+3. Open the HTML files in your web browser to see the projects in action.
 
-4.Modify and experiment with the code to deepen your understanding. 
+4. Modify and experiment with the code to deepen your understanding. 
 
 # Contribute
 
 
 Feel free to contribute to this repository by adding your own practice projects, fixing bugs, or improving the existing ones. Your contributions are always welcome!
 
-1.Fork the repository.
+1. Fork the repository.
 
-2.Create a new branch for your feature or bugfix.
+2. Create a new branch for your feature or bugfix.
 
-     $ git checkout -b feature/your-feature-name
+       $ git checkout -b feature/your-feature-name
 
-3.Commit your changes.
+3. Commit your changes.
 
-     $ git commit -m 'Add some feature'
+       $ git commit -m 'Add some feature'
 
-4.Push to the branch.
+4. Push to the branch.
 
-    $ git push origin feature/your-feature-name
+       $ git push origin feature/your-feature-name
 
-5.Open a pull request.
+5. Open a pull request.
 
 
 
