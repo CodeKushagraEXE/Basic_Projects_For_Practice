@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stopwatch</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  #display {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  #controls button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 0 5px;
+  }
+</style>
+</head>
+<body>
+<div id="display">00:00:00</div>
+<div id="controls">
+  <button id="startStop" onclick="startStop()">Start</button>
+  <button id="reset" onclick="reset()">Reset</button>
+</div>
+<script>
+  let timer;
+  let hours = 0;
+  let minutes = 0;
+  let seconds = 0;
+
+  function startStop() {
+    if (timer) {
+      clearInterval(timer);
+      document.getElementById("startStop").textContent = "Start";
+      timer = null;
+    } else {
+      document.getElementById("startStop").textContent = "Stop";
+      timer = setInterval(updateDisplay, 1000);
+    }
+  }
+
+  function updateDisplay() {
+    seconds++;
+    if (seconds >= 60) {
+      seconds = 0;
+      minutes++;
+      if (minutes >= 60) {
+        minutes = 0;
+        hours++;
+      }
+    }
+    document.getElementById("display").textContent =
+      formatTime(hours) + ":" + formatTime(minutes) + ":" + formatTime(seconds);
+  }
+
+  function formatTime(time) {
+    return time < 10 ? "0" + time : time;
+  }
+
+  function reset() {
+    clearInterval(timer);
+    timer = null;
+    hours = 0;
+    minutes = 0;
+    seconds = 0;
+    document.getElementById("display").textContent = "00:00:00";
+    document.getElementById("startStop").textContent = "Start";
+  }
+</script>
+</body>
+</html>
