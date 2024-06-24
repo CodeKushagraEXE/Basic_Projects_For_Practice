@@ -33,14 +33,14 @@ Feel free to contribute to this repository by adding your own practice projects,
 
 2.Create a new branch for your feature or bugfix.
 
-git checkout -b feature/your-feature-name
+     $ git checkout -b feature/your-feature-name
 
 3.Commit your changes.
 
-git commit -m 'Add some feature'
+     $ git commit -m 'Add some feature'
 
 4.Push to the branch.
-git push origin feature/your-feature-name
+     $ git push origin feature/your-feature-name
 
 5.Open a pull request.
 
