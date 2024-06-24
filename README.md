@@ -28,8 +28,11 @@ Gain confidence through hands-on practice.
 1.Clone the repository to your local machine.
 
     git clone https://github.com/your-username/practice-projects.git
+    
 2.Navigate to the project folder and open the files in your favorite code editor.
+
 3.Open the HTML files in your web browser to see the projects in action.
+
 4.Modify and experiment with the code to deepen your understanding. 
 
 # Contribute
