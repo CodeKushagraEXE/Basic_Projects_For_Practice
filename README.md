@@ -10,6 +10,9 @@ Welcome to the Practice Projects Repository! This repository contains a collecti
 
 <h2>Links for the above projects</h2>
 <a href="https://gym-fitness-blogs.netlify.app/"> Blogs's Website </a>
+
+
+
 # Table of Contents
 
 What's Inside
