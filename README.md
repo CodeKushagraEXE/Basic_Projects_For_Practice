@@ -12,7 +12,7 @@ Welcome to the Practice Projects Repository! This repository contains a collecti
 <ul>
 <li><a href="https://gym-fitness-blogs.netlify.app/"> Blogs's Website </a></li>
 <li><a href="https://3d-illustration.netlify.app/"> CYBERFICTION-SOURCE-CODE </a></li>
-<li><a href="https://gym-fitness-blogs.netlify.app/"> Blogs's Website </a></li>
+<li><a href=https://to-do-list-ksr.netlify.app/> to-do-List </a></li>
 </ul>
 
 
