@@ -6,7 +6,10 @@
 [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/navendu-pottekkat/awesome-readme?include_prereleases)](https://img.shields.io/github/v/release/navendu-pottekkat/awesome-readme?include_prereleases)
 
 Welcome to the Practice Projects Repository! This repository contains a collection of basic projects designed to help you practice and improve your skills in HTML, CSS, and JavaScript. Whether you are a beginner looking to learn the basics or someone who wants to refresh their knowledge, these projects offer a hands-on approach to learning..
- 
+
+
+<h2>Links for the above projects</h2>
+<a href="https://gym-fitness-blogs.netlify.app/"> Blogs's Website </a>
 # Table of Contents
 
 What's Inside
